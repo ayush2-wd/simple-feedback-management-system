@@ -31,18 +31,19 @@ Welcome to the Simple Feedback Management System! This project allows users to s
 
 1. Clone the repository:
     
-
+    ```
     git clone https://github.com/ayush2-wd/simple-feedback-management-system.git
     cd simple-feedback-management-system/backend
     ```
 
 2. Install backend dependencies:
     
-
+    ```
     npm install
     ```
 
 3. Start the backend server:
+    ```
     npm run dev
     ```
    The backend server will run on `http://localhost:5000`.
@@ -52,14 +53,14 @@ Welcome to the Simple Feedback Management System! This project allows users to s
 1. Open a new terminal and navigate to the project directory.
 
 2. Install frontend dependencies:
-    
+    ```
     cd ../frontend
     npm install
     ```
 
 3. Start the frontend server:
     
-
+    ```
     npm start
     ```
    The frontend server will run on `http://localhost:3000`.
