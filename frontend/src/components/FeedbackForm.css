@@ -1,0 +1,137 @@
+.feedback-form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-title, .list-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .form-input,
+  .form-textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #333;
+    transition: border-color 0.3s;
+  }
+  
+  .form-input:focus,
+  .form-textarea:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .error-message {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #d9534f;
+  }
+  
+  .submit-button {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .feedback-list {
+    margin-top: 40px;
+  }
+  
+  .feedback-item {
+    background: #fff;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 10px 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feedback-item strong {
+    color: #007bff;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .feedback-form-container {
+      padding: 20px;
+    }
+  
+    .form-title, .list-title {
+      font-size: 20px;
+    }
+  
+    .form-input,
+    .form-textarea {
+      padding: 10px;
+      font-size: 14px;
+    }
+  
+    .submit-button {
+      padding: 10px 15px;
+      font-size: 14px;
+    }
+  
+    .feedback-item {
+      padding: 8px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .feedback-form-container {
+      padding: 15px;
+    }
+  
+    .form-title, .list-title {
+      font-size: 18px;
+    }
+  
+    .form-input,
+    .form-textarea {
+      padding: 8px;
+      font-size: 12px;
+    }
+  
+    .submit-button {
+      padding: 8px 12px;
+      font-size: 12px;
+    }
+  
+    .feedback-item {
+      padding: 6px;
+    }
+  }
+  
